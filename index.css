@@ -16,3 +16,53 @@
 	border-right:1px solid #fbb700;
 	transform: rotate(45deg);
 }
+
+section,header,footer{	/*每个项目隔开一点*/
+	padding:0 10px;
+}
+
+header{  /*头部*/
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 44px;
+	background-color: #ff4683;
+	color:#fff;
+	font-size: 16px;
+}
+header a{
+	color:#fff;
+	opacity: .6;
+}
+header h3{
+	flex:1 1 auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 20px;
+}
+header .user-center-link{
+	display: flex;
+}
+.icon-location{
+	background: url(img/我的.png) center center no-repeat;
+	width: 15px;
+	height: 24px;
+	background-size: 15px;
+	padding-left: 5px;
+
+}
+header .city-link{
+	display: flex;
+}
+header .arrow-down{
+	width: 8px;
+	height: 7px;
+	border-bottom:1px solid #fff;
+	border-right:1px solid #fff;
+	transform: rotate(45deg);
+	margin-right: 4px;
+	position: relative;
+	top:5px;
+	left:5px;
+}
