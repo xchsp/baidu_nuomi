@@ -1,0 +1,18 @@
+.top{ /*食品安全*/
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding:0 12px;
+	background-color: #fffcec;
+	color:#fbb700;
+	margin-top: 0px;
+	height: 32px;
+	line-height: 32px;
+}
+.arrow-down{
+	width: 7px;
+	height: 7px;
+	border-top:1px solid #fbb700;
+	border-right:1px solid #fbb700;
+	transform: rotate(45deg);
+}
