@@ -66,3 +66,33 @@ header .arrow-down{
 	top:5px;
 	left:5px;
 }
+
+.search{				/*搜索框*/
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 50px;
+	background-color: #f1f1f1;
+}
+.search form{
+	margin:auto 5px;
+	flex:1 1 auto;
+	background: #fff;
+	height: 20px;
+	border:1px solid #ddd;
+	border-radius: 15px;
+	padding:5px;
+	display: flex;
+	justify-content: space-between;
+}
+.search form input{      /* 搜索区域中的输入框*/
+	padding:0 5px;
+	border:none;
+	font-size: 14px;
+}
+.search form .submit{     /* 搜索区域中的按钮*/
+	background: url(img/btn.png) center center no-repeat ;
+	border:none;
+	width: 20px;
+	background-size: 12px;
+}
